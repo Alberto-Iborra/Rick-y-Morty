@@ -1,0 +1,8 @@
+<form [formGroup]="userRegisterForm" (ngSubmit)="submit()">
+  <input type="text" formControlName="name" placeholder="name">
+
+  <input type="number" formControlName="age" placeholder="age">
+  <input type="text" formControlName="password" placeholder="password">
+  <input type="text" formControlName="passwordRepeat" placeholder="passwordRepeat">
+  <button>Enviar</button>
+</form>

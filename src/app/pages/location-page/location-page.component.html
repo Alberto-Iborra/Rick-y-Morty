@@ -1,0 +1,14 @@
+<main>
+  <div class="gallery">
+    <ng-container *ngFor="let location of locations" >
+      <a routerLink="/location/{{location.id}}" class="gallery-box">
+        <div >
+          <h2>{{location.name}}</h2>
+          <p>{{location.type}}</p>
+          <p>{{location.created | date: 'dd/MM/yyyy'}}</p>
+        </div>
+      </a>
+    </ng-container>
+
+  </div>
+</main>

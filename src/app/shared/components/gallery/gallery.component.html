@@ -1,0 +1,7 @@
+<div class="gallery">
+  <div *ngFor="let character of globalCharacters" class="gallery-box">
+    <img src={{character.image}} alt="" >
+    <h3>{{character.name}}</h3>
+    <a routerLink="/characters/{{character.id}}">View character</a>
+  </div>
+</div>

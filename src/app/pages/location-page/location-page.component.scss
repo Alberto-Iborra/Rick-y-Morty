@@ -1,0 +1,56 @@
+main{
+  background-color: #faf171;
+
+}
+a{
+  text-align: center;
+  text-shadow: none;
+  color: black;
+  background-color: white;
+  border-color: black;
+  border-style: solid;
+  border: 1px;
+  width: 70px;
+  height: 30px;
+  border-radius: 20px;
+
+}
+.gallery{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.gallery-box{
+  background-image: url(../../../assets/Space-PNG-HD.png);
+  background-size: cover;
+  color: white;
+  text-align: center;
+  word-wrap: break-word;
+  padding-top: 40px;
+  width: 300px;
+  height: 260px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius:150px ;
+  border: 4px;
+  border-style: solid;
+  border-color: white;
+  background-color: white;
+  text-shadow: 2px 2px 2px black;
+  fo
+
+  img{
+
+    border-radius: 200px;
+  }
+  p{
+
+    text-align:center;
+    width: 150px;
+    word-wrap: break-word;
+    margin: 5px;
+
+  }
+}
